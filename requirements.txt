@@ -1,0 +1,17 @@
+# Minimal deps to run every section in this project (sections 1-8).
+# For the rest of the course notebooks, use the requirements.txt at the repo root instead.
+
+langchain>=1.3.10
+langchain-openai>=1.1.1
+langchain-core>=1.3.3
+langgraph>=1.0.3
+python-dotenv>=1.2.0
+pydantic>=2.0.0
+
+# section_5_mcp and section_8_final_assistant (MCP client/servers)
+mcp>=1.21.1,<2.0.0
+langchain-mcp-adapters>=0.1.13
+
+# section_8_final_assistant: `langgraph dev` / LangGraph Studio
+langgraph-cli>=0.4.9
+langgraph-api>=0.5.37

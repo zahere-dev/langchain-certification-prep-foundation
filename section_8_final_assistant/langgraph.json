@@ -1,0 +1,7 @@
+{
+  "dependencies": ["../.."],
+  "graphs": {
+      "aria": "./assistant.py:agent"
+  },
+  "env": "../../.env"
+}
